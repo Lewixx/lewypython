@@ -1,0 +1,10 @@
+with open("wierszyk", encoding="utf-8") as plik:
+    linijka = plik.readline()
+    print(linijka)
+    print(plik.readline(), end="")
+    print(plik.readline(), end="")
+    print(plik.readline(), end="")
+    plik.seek(2)
+    print(plik.tell())
+    print(plik.readline())
+    plik.seek(0)
