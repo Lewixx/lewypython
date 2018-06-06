@@ -1,0 +1,24 @@
+1.
+import modul
+modul.nazwa funckji
+
+2.
+from modul import funkcja
+from copy impoty deepcopy
+
+3.
+from modul impotr *
+from copy
+
+import - korzystany z funkcjonalnosci ktora ktos ju kiedys napisal
+importujemy do nasszego pliku
+
+string
+datetime
+copy
+math
+decimal
+random
+os
+csv
+antigravity

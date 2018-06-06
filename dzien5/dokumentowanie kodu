@@ -1,0 +1,13 @@
+dokumentowanie funkcji
+docstring
+nie okreslemy jakiego typu jest ta zmienna
+wiec jest blad jak robimy funkcje dla stringa a podamy np INT albo floata
+
+documentation string
+opis co robi dana stara funkcja
+bo potem nie pamietamy co ten kod robi
+PEP257
+dajemy potrojny cydzysłow pod definicja
+def funckja();
+"""cos daje, licze, mam podac stringa"""
+""" i  nacisnij enter
