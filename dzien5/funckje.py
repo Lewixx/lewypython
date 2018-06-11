@@ -4,8 +4,8 @@
 # tworzymy re-uzywalny kod, gotowwe micro programy, funkcje, konfiguracja
 # dobra funkcja, robi jedna rzecz, robi dobrze\
 
-# def ...nazwa():
-#   kod...
+# def ...nazwa(): / sygnatura
+#   kod... body
 # def nicnierobi():
 #    ciało metody kod......
 # >>> nazwa-funkcji() - wywoływanie funkcji

@@ -9,3 +9,9 @@ print(random.choice(["ala", "marek", "ziom"]))
 import os
 print(os.getcwd())
 #library reference
+
+from time import time, localtime, clock
+print(time())
+
+#trza miec pomysl na swoj program
+open
