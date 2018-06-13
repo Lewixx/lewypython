@@ -18,3 +18,12 @@ for moneta in monety.keys():
         print(f'wydano {il_monet} monet {moneta}')
         print(round(reszta, 2))
         print(round(wydano, 2))
+
+L =[1,2]
+aa = L.count(L)
+print(aa)
+qqq = 4
+qq = str(qqq)
+print(qqq)
+print(qq)
+del qqq
