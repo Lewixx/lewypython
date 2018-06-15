@@ -25,4 +25,7 @@ print(zda)
 print(odwroc("rzepunga ma grubera"))
 
 
+imie = 'Kamila'
+imie[0].isup
 
+g =- -1

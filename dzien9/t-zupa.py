@@ -14,7 +14,7 @@ pprint(linki)
   #  print(link.attrs)
 
 for link in linki:
-    print(f'wiadomosci: {link.get('title')}')
+    print(f"wiadomosci: {link.get('title')}")
     #print(f'wiadomosci: {link['title']}')
     print(link.get('href'))
-    print(------------------------)
+    print('------------------------')
