@@ -12,6 +12,9 @@ p3.ustal_zarobki()
 print(p1)
 print(p2)
 print(p3)
+x = p1.pensja
+
+print(x)
 
 print(p1.pensja)
 print(p2.pensja)

@@ -2,6 +2,7 @@
 class Samochod(object):
     #dodajemy cechy do obiektu
     #self . POLE = arguemtn
+    #init to nie konstruktor, inicjalizator
     def __init__(self, marka, klima, kolor):
         self.producent = marka
         self.klima = klima
@@ -16,6 +17,8 @@ class Samochod(object):
         else:
             self.uruchomiony = True
             print(f'{self.producent}wlasnie odpaliles swoja fure')
+#reprezentacja strongiowa obiektu, wywolywane przy princie
 
     def __str__(self):
         return f'{self.producent} kolor {self.kolor}'
+
