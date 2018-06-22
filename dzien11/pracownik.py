@@ -29,6 +29,7 @@ class Pracownik(object):
             self.pensja += kwota
 
     #metody klasy clasmethod i potem zmiana cls sie daje jako automat
+    #dekorator classmetod
     @classmethod
     def zmienipodyzke(cls, wartosc):
         if wartosc > 0.1:
@@ -47,7 +48,7 @@ class Pracownik(object):
     @staticmethod
     def mojametoda():
         pass
-        #metody pomocniczne, nie potrzebuja metody kalsy, sprawdzajace cos
+        #metody pomocniczne, nie potrzebuja metody klasy, sprawdzajace cos
         #logicznie uzupelniaja prace modulu
 
     @staticmethod
