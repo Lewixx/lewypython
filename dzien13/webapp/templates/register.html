@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <h1>zarejestruj sie na kurs</h1>
+
+    <div>wybierz kurs z listy i podaj date rozpoczecia</div>
+
+    <form action="{{ url_for('register) }}" method="post">
+        Imie: <input name="imie" type="text"><br/>
+        kurs:
+        <select name="kurs">
+            <option value=""></option>
+            <option value="Python beginer">Python poczatkujacy</option>
+            <option value="Python mid">Python sredni</option>
+
+        </select>
+        <br/>
+        Data: <input name="data" type="datetime-local"/>
+        <br/>
+        <input type="submit" value="zarejestruj">
+
+    </form>
+{% endblock body %}
